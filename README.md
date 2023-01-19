@@ -37,7 +37,7 @@ message_action (мессенджер):
 - выгрузка данных из таблиц feed_actions и message_actions из ClickHouse с помощью SQL-запроса,
 - объдинение результатов выгрузки из двух таблиц,
 - преобразование данных и расчет по срезам (os, gender, age),
-- ззагрузка результатов в ClickHouse.
+- загрузка результатов в ClickHouse.
 
 ## Cкриншот итоговой таблицы в ClickHouse:
 ![Screenshot_etl](https://user-images.githubusercontent.com/122218714/211315263-dbd86abb-c99e-43d6-8598-ba76ff17cbc3.png)
